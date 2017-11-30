@@ -1,1 +1,39 @@
-# 
+# Latin Cipher Commands
+
+The cipher works by turning _deponent verbs_ from latin into an English phrase or sentence. Because Latin words translate into larger English word groups, this cipher is a good method for issuing effective one word orders that get the point across in a small amount of time.
+The following is a reference to this latin cipher.
+Please not that this is not actual latin and does not translate directly, it is loosely translated into english to the extent that it would be effective for the purpose it serves.
+***
+### Format
+* `word (in latin)` `word  (sentence format)` - Corresponding english word or phrase  
+Notes about the words
+  * `compund-word (in latin)` `word (sentence format)` - Corresponding english word or phrase
+  notes about the word
+
+##### For Example:
+* `miror` `mirari` - wonder at
+  * `admiror` `admirari` - to admire
+
+The sentence format of a word is used when in combination with other latin cipher words
+###### For Example:
+`hortari` `aggredior` - encourage an attack
+In more proper english: _Bait 'em_
+
+These words can also be used with other common latin words to form complex sentences like:
+`sequor` et `aggredior` tum `proficiscor`
+This translates to:
+Follow and attack, then depart (retreat)
+
+Regular latin expressions separate cipher words, so they reset to their full forms. Rather that "`sequi` et `aggredior`", it is "`sequor` et `aggredior`"
+
+
+***
+
+## Cipher Word List
+
+* `conor` `conari` - try
+Usually combined with other words to indicate that that the speaker wants to try to do something, or wants to know if a certain action is doable.
+* `hortor` `hortari` - urge, encourage
+Example usage would be the one in the format section
+* `moror` `morari` - stay, delay
+Generally a single order, but sometimes combined
