@@ -4,30 +4,31 @@ body {
 }
 
 hr {
-  display: block;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: ridge;
-  border-width: 2px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: ridge;
+    border-width: 2px;
+.title {
+  color: Green;
+  font-family: sans-serif;
+  float: none;
+  text-shadow: 0px 0px 0px DarkGreen;
+  text-align: center;
+  cursor: default;
 }
-  .title {
-    color: Green;
-    font-family: sans-serif;
-    float: none;
-    text-shadow: 0px 0px 0px DarkGreen;
-    text-align: center;
-    cursor: default;
-  }
-  .title:hover {
-    font-size: 33px;
-    text-shadow: .25px 4px 10px DarkGreen;
-  }
-  code {
-    font-family: monospace;
-    background-color: Gainsboro;
-  }
-  code:hover {
-    background-color: LightGray;
-  }
+
+.title:hover {
+  font-size: 33px;
+  text-shadow: .25px 4px 10px DarkGreen;
+}
+
+code {
+  font-family: monospace;
+  background-color: Gainsboro;
+}
+code:hover {
+  background-color: LightGray;
+}
