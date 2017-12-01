@@ -3,8 +3,7 @@
 
 <head>
   <title>Latin Cipher</title>
-  <link type="text/css" rel="stylesheet" href="./style.css">
-  <script src="./linked/download/download.js"></script>
+  <link type="text/css" rel="stylesheet" href="./linked/style.css">
 </head>
 
 <body>
@@ -53,7 +52,23 @@
   <hr />
 
   <h2 id="cipherwordlist" class="heading">Cipher Word List</h2>
+  <a href='linkhref.html' id='downloadButton'>Download a text version of the list</a>
 
+  <script type="text/javascript" defer>
+    var myLink = document.getElementById('downloadButton');
+
+    downloadButton.onclick = function() {
+
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "./linked/download/download.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+      return false;
+
+    }
+  </script>
+  <!-- if the above doesnt work, try script.src = "...../filename.js."
+  The period is what I'm really trying to get at. Add one after the "js" -->
   <ul>
     <li><code>conor</code> <code>conari</code> - try<br>Usually combined with other words to indicate that that the speaker wants to try to do something, or wants to know if a certain action is doable.</li>
 
