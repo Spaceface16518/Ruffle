@@ -41,12 +41,17 @@ code:hover {
   background-color: Chartreuse;
   text-decoration: none;
   color: black;
-  text-shadow: 0px 0px 1px DarkGreen;
+  text-shadow: 0px 0px 4px DarkGreen;
 }
 
-.button:active {
+.button:hover {
   background-color: LawnGreen;
-  font-weight: bold;
-  font-size: 110%;
+  font-weight: normal;
   text-shadow: 0px 0px 3px DarkGreen;
+}
+.button:active {
+  background-color: LimeGreen;
+  font-weight: bold;
+  font-size: 80%;
+  text-shadow: 0px 0px 1px DarkGreen;
 }
