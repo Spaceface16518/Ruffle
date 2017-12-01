@@ -52,6 +52,6 @@ code:hover {
 .button:active {
   background-color: LimeGreen;
   font-weight: bold;
-  font-size: 80%;
+  font-size: 95%;
   text-shadow: 0px 0px 1px DarkGreen;
 }
