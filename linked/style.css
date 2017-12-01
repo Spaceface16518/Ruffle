@@ -32,3 +32,12 @@ code {
 code:hover {
   background-color: LightGray;
 }
+.button {
+  font-family: sans-serif;
+  background-color: Chartreuse;
+}
+.button:active {
+  background-color: LawnGreen;
+  font-weight: bold;
+  font-size: 110%;
+}

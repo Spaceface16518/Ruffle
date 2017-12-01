@@ -2,13 +2,18 @@
 <html>
 
 <head>
-  <title>Latin Cipher</title>
+  <title>Cipher</title>
   <link type="text/css" rel="stylesheet" href="./linked/style.css">
+  <link type="text/javascript" src="./linked/download/download.js">
 </head>
 
 <body>
   <h1 id="latinciphercommands" class="title">Latin Cipher Commands</h1>
+  <!-- TODO: add nav menu
+<nav>
 
+</nav>
+-->
   <p>The cipher works by turning <em>deponent verbs</em> from latin into an English phrase or sentence. Because Latin words translate into larger English word groups, this cipher is a good method for issuing effective one word orders that get the point across
     in a small amount of time. The following is a reference to this latin cipher. Please not that this is not actual latin and does not translate directly, it is loosely translated into english to the extent that it would be effective for the purpose
     it serves.
@@ -51,24 +56,7 @@
 
   <hr />
 
-  <h2 id="cipherwordlist" class="heading">Cipher Word List</h2>
-  <a href='linkhref.html' id='downloadButton'>Download a text version of the list</a>
-
-  <script type="text/javascript" defer>
-    var myLink = document.getElementById('downloadButton');
-
-    downloadButton.onclick = function() {
-
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "./linked/download/download.js";
-      document.getElementsByTagName("head")[0].appendChild(script);
-      return false;
-
-    }
-  </script>
-  <!-- if the above doesnt work, try script.src = "...../filename.js."
-  The period is what I'm really trying to get at. Add one after the "js" -->
+<a id="downloadButton" href="./download/cipher-list.txt" class="button" download>Download the list instead</a>
   <ul>
     <li><code>conor</code> <code>conari</code> - try<br>Usually combined with other words to indicate that that the speaker wants to try to do something, or wants to know if a certain action is doable.</li>
 
