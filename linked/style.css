@@ -13,6 +13,21 @@ hr {
   border-width: 2px;
 }
 
+#whyIsThisNotWorking {
+  text-align: center;
+  color: Green;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-skip: ink;
+  text-shadow: 0px 0px 5px DarkGreen;
+}
+
+#whyIsThisNotWorking:hover {
+  color: LawnGreen;
+  cursor: pointer;
+  text-shadow: 0px 0px 3px DarkGreen, 0px 0px 10px Green;
+}
+
 .inDev {
   visibility: hidden;
 }
@@ -41,19 +56,23 @@ code:hover {
 }
 
 .button {
-  font-family: sans-serif;
-  background-color: Chartreuse;
-  text-decoration: none;
-  color: black;
-  text-shadow: 0px 0px 6px DarkGreen;
+  text-align: center;
+  background-color: Green;
+  height: auto;
+  width: 100px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin: 12px auto;
+  color: Linen;
+  cursor: pointer;
 }
 
 .button:hover {
-  background-color: hsl(120, 100, 45);
-  text-shadow: 0px 0px 4px DarkGreen;
+  padding: 9px 27px;
 }
-.button:active {
-  background-color: hsl(120, 60, 36);
-  font-size: 95%;
-  text-shadow: 0px 0px 2px DarkGreen;
+
+button:active {
+  padding: 7px 21px;
+  background-color: DarkGreen;
+  color: GhostWhite
 }
