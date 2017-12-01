@@ -13,6 +13,10 @@ hr {
   border-width: 2px;
 }
 
+.inDev {
+  visibility: hidden;
+}
+
 .title {
   color: Green;
   font-family: sans-serif;
