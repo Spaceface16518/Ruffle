@@ -8,67 +8,84 @@
 </head>
 
 <body>
-  <h1 id="latinciphercommands" class="title">Latin Cipher Commands</h1>
-  <!-- TODO: add nav menu
-<nav>
+  <!--
+  <nav>
 
-</nav>
--->
-  <p>The cipher works by turning <em>deponent verbs</em> from latin into an English phrase or sentence. Because Latin words translate into larger English word groups, this cipher is a good method for issuing effective one word orders that get the point across
-    in a small amount of time. The following is a reference to this latin cipher. Please not that this is not actual latin and does not translate directly, it is loosely translated into english to the extent that it would be effective for the purpose
-    it serves.
-  </p>
 
-  <hr />
-
-  <h3 id="format" class="heading">Format</h3>
-
-  <ul>
-    <li><code>word (in latin)</code> <code>word  (sentence format)</code> - Corresponding english word or phrase <br /> Notes about the words
 
       <ul>
-        <li><code>compund-word (in latin)</code> <code>word (sentence format)</code> - Corresponding english word or phrase notes about the word</li>
+        <li><a  href="#TopSection">Top</a></li>
+        <li><a href="#descriptionSection">Description</a></li>
+        <li><a href="formatSection">Format</a></li>
+        <li><a href="listSection"><strong>Latin Cipher</strong></a></li>
       </ul>
-    </li>
-  </ul>
 
-  <h5 id="forExample" class="heading example">For Example:</h5>
+  </nav>
+-->
+  <section id="TopSection" <h1 id="latinciphercommands" class="title">Latin Cipher Commands</h1>
+  </section>
 
-  <ul class="example">
-    <li><code>miror</code> <code>mirari</code> - wonder at
+  <section id="descriptionSection">
+    <p>The cipher works by turning <em>deponent verbs</em> from latin into an English phrase or sentence. Because Latin words translate into larger English word groups, this cipher is a good method for issuing effective one word orders that get the point
+      across in a small amount of time. The following is a reference to this latin cipher. Please not that this is not actual latin and does not translate directly, it is loosely translated into english to the extent that it would be effective for the
+      purpose it serves.
+    </p>
+  </section>
+  <hr />
+  <section id="formatSection">
+    <h3 id="format" class="heading">Format</h3>
 
-      <ul class="example">
-        <li><code>admiror</code> <code>admirari</code> - to admire</li>
-      </ul>
-    </li>
-  </ul>
+    <ul>
+      <li><code>word (in latin)</code> <code>word  (sentence format)</code> - Corresponding english word or phrase <br /> Notes about the words
 
-  <p>The sentence format of a word is used when in combination with other latin cipher words</p>
+        <ul>
+          <li><code>compund-word (in latin)</code> <code>word (sentence format)</code> - Corresponding english word or phrase notes about the word</li>
+        </ul>
+      </li>
+    </ul>
 
-  <h6 id="combinationExample" class="heading example">For Example:</h6>
+    <h5 id="forExample" class="heading example">For Example:</h5>
 
-  <p class="example"><code>hortari</code> <code>aggredior</code> - encourage an attack In more proper english: <em>Bait 'em</em></p>
+    <ul class="example">
+      <li><code>miror</code> <code>mirari</code> - wonder at
 
-  <p>These words can also be used with other common latin words to form complex sentences like:
-    <code>sequor</code> et <code>aggredior</code> tum <code>proficiscor</code> This translates to: Follow and attack, then depart (retreat)</p>
+        <ul class="example">
+          <li><code>admiror</code> <code>admirari</code> - to admire</li>
+        </ul>
+      </li>
+    </ul>
 
-  <p>Regular latin expressions separate cipher words, so they reset to their full forms. Rather that "<code>sequi</code> et <code>aggredior</code>", it is "<code>sequor</code> et <code>aggredior</code>"</p>
+    <p>The sentence format of a word is used when in combination with other latin cipher words</p>
 
+    <h6 id="combinationExample" class="heading example">For Example:</h6>
+
+    <p class="example"><code>hortari</code> <code>aggredior</code> - encourage an attack In more proper english: <em>Bait 'em</em></p>
+
+    <p>These words can also be used with other common latin words to form complex sentences like:
+      <code>sequor</code> et <code>aggredior</code> tum <code>proficiscor</code> This translates to: Follow and attack, then depart (retreat)</p>
+
+    <p>Regular latin expressions separate cipher words, so they reset to their full forms. Rather that "<code>sequi</code> et <code>aggredior</code>", it is "<code>sequor</code> et <code>aggredior</code>"</p>
+  </section>
   <hr />
 
   <!--<a id="downloadButton" href="./download/cipher-list.txt" class="button inDev" download>Download the list instead</a>-->
 
+  <section id="download">
+    <div class="button inDev" id="downloadButton" onclick="download()">Download the list instead</div>
+    <br>
+    <a id="helpLink" class="help inDev" onclick="expandHelpLink()">Button not working?</a>
+    <p id="expandedHelpLink">Your browser may not support this download
+  </section>
+  <section id="listSection">
+    <p>
+      <ul>
+        <li><code>conor</code> <code>conari</code> - try<br>Usually combined with other words to indicate that that the speaker wants to try to do something, or wants to know if a certain action is doable.</li>
 
-  <div class="button inDev" id="downloadButton" onclick="download()">Download the list instead</div>
-  <br>
-  <a id="whyIsThisNotWorking" class="help inDev" onclick="expandHelpLink()">Button not working?</a>
-  <ul>
-    <li><code>conor</code> <code>conari</code> - try<br>Usually combined with other words to indicate that that the speaker wants to try to do something, or wants to know if a certain action is doable.</li>
+        <li><code>hortor</code> <code>hortari</code> - urge, encourage<br>Example usage would be the one in the format section</li>
 
-    <li><code>hortor</code> <code>hortari</code> - urge, encourage<br>Example usage would be the one in the format section</li>
-
-    <li><code>moror</code> <code>morari</code> - stay, delay<br>Generally a single order, but sometimes combined</li>
-  </ul>
+        <li><code>moror</code> <code>morari</code> - stay, delay<br>Generally a single order, but sometimes combined</li>
+      </ul>
+  </section>
 </body>
 
 </html>

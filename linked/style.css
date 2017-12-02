@@ -1,6 +1,7 @@
 body {
   background-color: MintCream;
   cursor: default;
+  margin: auto 30%;
 }
 
 hr {
@@ -13,7 +14,7 @@ hr {
   border-width: 2px;
 }
 
-#whyIsThisNotWorking {
+#helpLink {
   text-align: center;
   color: Green;
   text-decoration: underline;
@@ -22,19 +23,23 @@ hr {
   text-shadow: 0px 0px 5px DarkGreen;
 }
 
-#whyIsThisNotWorking:hover {
+#helpLink:hover {
   color: LawnGreen;
   cursor: pointer;
   text-shadow: 0px 0px 3px DarkGreen, 0px 0px 10px Green;
 }
 
+/*
 .inDev {
   visibility: hidden;
 }
+*/
 
 .title {
   color: Green;
   font-family: sans-serif;
+  font-size: 32px;
+  margin: 10px auto 15px auto;
   float: none;
   text-shadow: 0px 0px 0px DarkGreen;
   text-align: center;
@@ -43,9 +48,35 @@ hr {
 
 .title:hover {
   font-size: 33px;
+  margin-bottom: 9.5px auto 14.5px auto;
   text-shadow: .25px 4px 10px DarkGreen;
 }
+/*
+nav {
+  /text-align: inherit;/
 
+}
+nav li a {
+  text-decoration: none;
+
+  list-style-type: none;
+    margin: 1px;
+    padding: 0;
+    overflow: hidden;
+    background-color: DarkGreen;
+    position: fixed;
+    top: 0;
+    width: auto;
+}
+nav li {
+  float: left;
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+*/
 code {
   font-family: monospace;
   background-color: Gainsboro;
@@ -69,6 +100,7 @@ code:hover {
 
 .button:hover {
   padding: 9px 27px;
+  margin: 13px auto;
 }
 
 button:active {
