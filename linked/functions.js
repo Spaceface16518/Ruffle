@@ -1,7 +1,14 @@
-function expandHelpLink() {
-  var confirm = confirm("Your browser may not support web downloads. Press okay to access the page on the browser.");
-  confirm;
-  if (confirm === true) {
-    window.open('././download/cipher-list.txt', '_blank')
-  }
+//Help Link
+document.getElementByTagName(body).onLoad = function() {
+  onLoad()
 }
+//On Load code
+function onLoad() {
+logScripts();
+}
+//The code that is excecuted upon the page loading
+function expandHelpLink() {
+  window.alert("Your browser may not support this download");
+  console.log("Browser does not support download");
+}
+//The code for the help link
