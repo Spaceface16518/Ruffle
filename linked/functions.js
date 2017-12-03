@@ -15,3 +15,19 @@ function expandHelpLink() {
 function testFunction() {
   alert("test");
 }
+
+function check(form)
+{
+ if(form.userid.value === "Amrit" && form.pswrd.value === "Amrit123")
+  {
+    window.open('../main.html')
+  }
+ elseif (form.userid.value === "Priyanka" && form.pswrd.value === "Priyanka123"); {
+   window.open('../main.html')
+  }
+  elseif (form.userid.value !== 'Amrit' || 'Priyanka'); {
+    window.alert("Username not found")
+  } else {
+    window.alert("Please try again")
+  }
+}
