@@ -12,3 +12,6 @@ function expandHelpLink() {
   console.log("Browser does not support download");
 }
 //The code for the help link
+function testFunction() {
+  alert("test");
+}
