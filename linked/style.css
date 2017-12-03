@@ -51,6 +51,7 @@ hr {
   margin-bottom: 9.5px auto 14.5px auto;
   text-shadow: .25px 4px 10px DarkGreen;
 }
+
 /*
 nav {
   /text-align: inherit;/
@@ -77,6 +78,7 @@ nav li {
   text-decoration: none;
 }
 */
+
 code {
   font-family: monospace;
   background-color: Gainsboro;
