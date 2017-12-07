@@ -1,4 +1,0 @@
-# Template
-~~~~html
-<li><code>Word</code> <code>Word</code> - Explain<br>Notes</li>
-~~~~

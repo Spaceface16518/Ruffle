@@ -28,3 +28,4 @@ Temporary Items
 # VS code
 .vscode
 launch.json
+templates/.DS_Store
